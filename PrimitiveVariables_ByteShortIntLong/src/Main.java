@@ -8,7 +8,8 @@ public class Main {
         int myMaxIntvalue = Integer.MAX_VALUE;
         System.out.println("Integer Minimum Value:  " + myMinIntValue);
         System.out.println("Integer Maximum Value:  " + myMaxIntvalue);
-
+        System.out.println("Busted Max value = " + (myMaxIntvalue + 1)); //Overflow
+        System.out.println("Busted Min value = " + (myMinIntValue - 1)); //Underflow
 
     }
 }
