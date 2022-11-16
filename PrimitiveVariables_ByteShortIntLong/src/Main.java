@@ -1,5 +1,5 @@
 public class Main {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         System.out.println("Udemy: java Programming Masterclass");
         System.out.println("Primitive Variables Byte Short Int Long");
 
@@ -22,13 +22,19 @@ public class Main {
         //Short Data Type
         short myMinShortValue = Short.MIN_VALUE;
         short myMaxShortValue = Short.MAX_VALUE;
-        System.out.println("Short Min Value: "  + myMinShortValue);
+        System.out.println("Short Min Value: " + myMinShortValue);
         System.out.println("Short Max Value: " + myMaxShortValue);
 
         //Long
         long myMinLongValue = Long.MIN_VALUE;
         long myMaxLongValue = Long.MAX_VALUE;
+        long myLongValue = 100;
         System.out.println("Long Min Value: " + myMinLongValue);
         System.out.println("Long Max Value: " + myMaxLongValue);
+        System.out.println("myLongValue: " + myLongValue);
+
+        short bigShortLiteralValue = 32767;
+        System.out.println(bigShortLiteralValue);
+
     }
 }
